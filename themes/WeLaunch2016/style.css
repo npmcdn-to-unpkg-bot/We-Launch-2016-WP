@@ -2034,7 +2034,7 @@ footer .footer-social .fa {
 #blog {
   padding-top: 1.875em; }
 
-#blog a .panel-blog {
+#blog .panel-blog {
   float: left;
   display: block;
   margin-right: 1.14595%;
@@ -2045,22 +2045,22 @@ footer .footer-social .fa {
   margin-bottom: 0.6em;
   padding-top: 22em;
   padding-bottom: 4em; }
-  #blog a .panel-blog:last-child {
+  #blog .panel-blog:last-child {
     margin-right: 0; }
   @media (min-width: 48em) {
-    #blog a .panel-blog {
+    #blog .panel-blog {
       float: left;
       display: block;
       margin-right: 1.14595%;
       width: 32.56936%; }
-      #blog a .panel-blog:last-child {
+      #blog .panel-blog:last-child {
         margin-right: 0; }
-      #blog a .panel-blog:nth-child(3n) {
+      #blog .panel-blog:nth-child(3n) {
         margin-right: 0; }
-      #blog a .panel-blog:nth-child(3n+1) {
+      #blog .panel-blog:nth-child(3n+1) {
         clear: left; } }
 
-#blog a .panel-blog .panel-heading {
+#blog .panel-blog .panel-heading {
   position: absolute;
   top: 0;
   left: 0;
@@ -2068,7 +2068,7 @@ footer .footer-social .fa {
   height: 20em;
   background-size: cover; }
 
-#blog a .panel-blog .panel-body a {
+#blog .panel-blog .panel-body a {
   position: absolute;
   bottom: 1em;
   left: 2em; }
