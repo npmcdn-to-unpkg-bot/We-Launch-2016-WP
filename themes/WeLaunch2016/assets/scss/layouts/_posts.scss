@@ -140,12 +140,8 @@
   z-index:-1;
 }
 #blog-wrap {
-  @include span-columns(12);
-
-  @include bp(md) {
-    @include span-columns(9);
-    float:right;
-  }
+  width:100%;
+  display:block;
 }
 #blog-content {
   background-color: white;

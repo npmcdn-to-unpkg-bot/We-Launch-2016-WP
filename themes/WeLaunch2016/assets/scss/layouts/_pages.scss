@@ -543,7 +543,7 @@
 #blog {
   padding-top: em(30);
 }
-.panel-blog {
+#blog a .panel-blog {
   @include span-columns(12);
   background-color: white;
   padding:em(30);
@@ -553,11 +553,11 @@
   padding-bottom: 4em;
 
   @include bp(md) {
-    @include span-columns(6);
-    @include omega(2n);
+    @include span-columns(4);
+    @include omega(3n);
   }
 }
-.panel-blog .panel-heading {
+#blog a .panel-blog .panel-heading {
   position: absolute;
   top:0;
   left:0;
@@ -565,7 +565,7 @@
   height:20em;
   background-size:cover;
 }
-.panel-blog .panel-body a {
+#blog a .panel-blog .panel-body a {
   position: absolute;
   bottom:1em;
   left:2em;
